@@ -1,4 +1,45 @@
 @font-face {
-    font-family: 'fontawesome-webfont';
-    src: url(font/fontawesome-webfont.woff);
+    font-family: 'opensans-regular-webfont';
+    src: url(font/opensans-regular-webfont.woff);
+    
+}
+
+    
+.fondo{
+    background-image: url(img/fondo-bienvenido-grande.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color:aliceblue ;
+}
+ .tituloarriba{
+    font-family: 'opensans-regular-webfont';
+    margin: 0rem auto;  
+    font-weight: bolder;
+    font-size: 30px;
+
+ }
+.botones{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: 100px 300px 300px 300px;
+}
+#NOSOTROS{
+    display: grid;
+    background-color: #f05f40;
+    border-color: #f05f40;
+    
+    
+}
+.titulogrande{
+    margin: 50rem auto;
+    color: aliceblue;
+   
+}
+
+h1 {
+    text-align: center;
+    
 }
