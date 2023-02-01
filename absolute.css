@@ -1,0 +1,17 @@
+.fondo{
+    background-image: url(img/fondo-bienvenido-grande.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color:aliceblue ;
+    margin: 0rem auto;
+}
+.titulogrande{
+    margin: 50rem auto;
+    color: aliceblue;
+    
+}
+
+
+
+
