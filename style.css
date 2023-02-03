@@ -8,7 +8,7 @@
 .fondo{
     background-image: url(img/fondo-bienvenido-grande.jpg);
     background-size: cover;
-    height: 80%;
+    height: 100%;
     width: 100%;
     color:aliceblue ;
     position:absolute;
@@ -66,7 +66,7 @@
     margin: 5rem auto;  
     color: aliceblue;
     position:absolute;
-    top:30% ;
+    top:40% ;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 110%;
@@ -90,7 +90,7 @@ Body {background-color : #f05f40;
     
     color: white;
     position:absolute;
-    top:130% ;
+    top:139% ;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 110%;
@@ -98,7 +98,7 @@ Body {background-color : #f05f40;
 }
 #primera{
     position:absolute;
-    top:97% ;
+    top:115% ;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 25%;
@@ -174,8 +174,8 @@ Body {background-color : #f05f40;
     top:185% ;
     left: 80%;
     transform: translate(-50%, -50%); 
-    height: 120px;
-    width: 240px;
+    height: 115px;
+    width: 235px;
 
 
 }
@@ -224,7 +224,7 @@ Body {background-color : #f05f40;
 #proyecto4{
 
     position:absolute;
-    top: 280% ;
+    top: 283% ;
     left:27%;
     transform: translate(-50%, -50%); 
     height: 30%;
@@ -233,18 +233,18 @@ Body {background-color : #f05f40;
 #proyecto5{
 
     position:absolute;
-    top: 280% ;
+    top: 283% ;
     left:50%;
     transform: translate(-50%, -50%); 
     height: 30%;
-    width:70%;
+    width:31%;
 
 
 }
 #proyecto6{
 
     position:absolute;
-    top: 280% ;
+    top: 283% ;
     left:73%;
     transform: translate(-50%, -50%); 
     height: 30%;
