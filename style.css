@@ -8,38 +8,247 @@
 .fondo{
     background-image: url(img/fondo-bienvenido-grande.jpg);
     background-size: cover;
-    height: 100%;
+    height: 80%;
     width: 100%;
     color:aliceblue ;
+    position:absolute;
+    top:0% ;
+    left: 0%;
+    transform: translate(-0%, -0%);
 }
  .tituloarriba{
     font-family: 'opensans-regular-webfont';
     margin: 0rem auto;  
     font-weight: bolder;
     font-size: 30px;
-
+    padding-top: 500px;
+    position:absolute;
+    top:0% ;
+    left: 7%;
+    transform: translate(-10%, -90%);
  }
 .botones{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
-    grid-template-columns: 100px 300px 300px 300px;
-}
-#NOSOTROS{
-    display: grid;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    display: inline-block;
+    position:absolute;
+    top:5% ;
+    right: 3%;
+    transform: translate(-40%, -50%);
     
     
-}
-.titulogrande{
-    margin: 50rem auto;
-    color: aliceblue;
-   
+
 }
 
-h1 {
-    text-align: center;
+.bootstrap-flex{
+
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
     
+
+}
+#NOSOTROS{
+    
+    background-color: transparent;
+}
+    
+
+#PONTENCONTACTO{
+    background-color:#f05f40;
+    color:white;
+    border-color: #f05f40;
+}
+.titulogrande{
+    margin: 5rem auto;  
+    color: aliceblue;
+    position:absolute;
+    top:30% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 110%;
+    
+}
+
+Body {background-color : #f05f40;
+    display:flex ;
+    position:static;
+
+}
+
+#pontecontacto{
+
+    padding: 10px;
+    height:0%;
+
+}
+
+.texto{
+    
+    color: white;
+    position:absolute;
+    top:130% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 110%;
+    justify-content: center;
+}
+#primera{
+    position:absolute;
+    top:97% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25%;
+    width: 100%;
+
+}
+#MASINFORMACION{
+    width: 30%;
+}
+#bla{
+    position:absolute;
+    top: 185% ;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 60%;
+    width:100%;
+
+}
+.Nuestroservicios{
+
+    position:absolute;
+    top:165% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#portafolio{
+
+    position:absolute;
+    top:185% ;
+    left: 18%;
+    transform: translate(-50%, -50%); 
+    height: 130px;
+    width: 250px;
+
+
+}
+.apps{
+    position:absolute;
+    top:200% ;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.fabrica{
+    position:absolute;
+    top:200% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+#chorote{
+
+    position:absolute;
+    top:185% ;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 130px;
+    width: 250px;
+
+
+}
+.diseño{
+    position:absolute;
+    top:200% ;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+#check{
+
+    position:absolute;
+    top:185% ;
+    left: 80%;
+    transform: translate(-50%, -50%); 
+    height: 120px;
+    width: 240px;
+
+
+}
+#gris{
+    position:absolute;
+    top: 260% ;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 100%;
+    width:100%
+}
+.titulo{
+    position:absolute;
+    top: 255% ;
+    left: 88%;
+    transform: translate(-50%, -50%); 
+    height: 70%;
+    width:100%;
+    color: white;
+}
+
+#bote{
+    position:absolute;
+    top: 247% ;
+    left: 27%;
+    transform: translate(-50%, -50%); 
+    height: 30%;
+    width:40%;
+}
+#tarta{
+    position:absolute;
+    top: 247% ;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 30%;
+    width:40%;
+}
+#proyecto3{
+    position:absolute;
+    top: 247% ;
+    left: 73%;
+    transform: translate(-50%, -50%); 
+    height: 30%;
+    width:40%;
+}
+#proyecto4{
+
+    position:absolute;
+    top: 280% ;
+    left:27%;
+    transform: translate(-50%, -50%); 
+    height: 30%;
+    width:40%;
+}
+#proyecto5{
+
+    position:absolute;
+    top: 280% ;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    height: 30%;
+    width:70%;
+
+
+}
+#proyecto6{
+
+    position:absolute;
+    top: 280% ;
+    left:73%;
+    transform: translate(-50%, -50%); 
+    height: 30%;
+    width:40%;
+
+
 }
