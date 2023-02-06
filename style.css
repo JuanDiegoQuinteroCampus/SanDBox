@@ -1,252 +1,297 @@
 @font-face {
     font-family: 'opensans-regular-webfont';
     src: url(font/opensans-regular-webfont.woff);
+
+}
+
+.encabezado {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
     
 }
 
-    
-.fondo{
+nav ul li:hover {
+    background: #f05f40;
+}
+
+
+.fondo {
     background-image: url(img/fondo-bienvenido-grande.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
-    color:aliceblue ;
-    position:absolute;
-    top:0% ;
+    color: aliceblue;
+    position: absolute;
+    top: 0%;
     left: 0%;
     transform: translate(-0%, -0%);
 }
- .tituloarriba{
+
+.tituloarriba {
     font-family: 'opensans-regular-webfont';
-    margin: 0rem auto;  
+    margin: 0rem auto;
     font-weight: bolder;
     font-size: 30px;
     padding-top: 500px;
-    position:absolute;
-    top:0% ;
+    position: absolute;
+    top: 0%;
     left: 7%;
     transform: translate(-10%, -90%);
- }
-.botones{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: inline-block;
-    position:absolute;
-    top:5% ;
-    right: 3%;
-    transform: translate(-40%, -50%);
-    
-    
-
 }
 
-.bootstrap-flex{
+.bootstrap-flex {
 
-    display:flex;
+    display: flex;
     flex-direction: row;
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
-    
+
 
 }
-#NOSOTROS{
-    
+
+#NOSOTROS {
+
     background-color: transparent;
 }
-    
 
-#PONTENCONTACTO{
-    background-color:#f05f40;
-    color:white;
+
+#PONTENCONTACTO {
+    background-color: #f05f40;
+    color: white;
     border-color: #f05f40;
 }
-.titulogrande{
-    margin: 5rem auto;  
+
+.titulogrande {
+    margin: 5rem auto;
     color: aliceblue;
-    position:absolute;
-    top:40% ;
+    position: absolute;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 110%;
-    
-}
-
-Body {background-color : #f05f40;
-    display:flex ;
-    position:static;
 
 }
 
-#pontecontacto{
+Body {
+    background-color: #f05f40;
+    display: flex;
+    position: static;
+
+}
+
+#pontecontacto {
 
     padding: 10px;
-    height:0%;
+    height: 0%;
 
 }
 
-.texto{
-    
+.texto {
+
     color: white;
-    position:absolute;
-    top:143% ;
+    position: absolute;
+    top: 143%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 110%;
     justify-content: center;
 }
-#primera{
-    position:absolute;
-    top:115% ;
+
+#primera {
+    position: absolute;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 25%;
     width: 100%;
 
 }
-#MASINFORMACION{
+
+#MASINFORMACION {
     width: 30%;
 }
-#bla{
-    position:absolute;
-    top: 189% ;
+
+#bla {
+    position: absolute;
+    top: 189%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 59%;
-    width:100%;
+    width: 100%;
 
 }
-.Nuestroservicios{
 
-    position:absolute;
-    top:165% ;
+.Nuestroservicios {
+
+    position: absolute;
+    top: 165%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
-#portafolio{
 
-    position:absolute;
-    top:185% ;
+#portafolio {
+
+    position: absolute;
+    top: 185%;
     left: 18%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 130px;
     width: 250px;
 
 
 }
-.apps{
-    position:absolute;
-    top:200% ;
+
+.apps {
+    position: absolute;
+    top: 200%;
     left: 18%;
     transform: translate(-50%, -50%);
     justify-content: center;
 }
-.fabrica{
-    position:absolute;
-    top:200% ;
+
+.fabrica {
+    position: absolute;
+    top: 200%;
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: center;
 }
-#chorote{
 
-    position:absolute;
-    top:185% ;
+#chorote {
+
+    position: absolute;
+    top: 185%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 130px;
     width: 250px;
 
 
 }
-.diseño{
-    position:absolute;
-    top:202% ;
+
+.diseño {
+    position: absolute;
+    top: 202%;
     left: 80%;
     transform: translate(-50%, -50%);
     justify-content: center;
 }
-#check{
 
-    position:absolute;
-    top:185% ;
+#check {
+
+    position: absolute;
+    top: 185%;
     left: 80%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 115px;
     width: 178px;
 
 
 }
-#gris{
-    position:absolute;
-    top: 260% ;
+
+#gris {
+    position: absolute;
+    top: 260%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 100%;
-    width:100%
+    width: 100%
 }
-.titulo{
-    position:absolute;
-    top: 255% ;
+
+.titulo {
+    position: absolute;
+    top: 255%;
     left: 88%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 70%;
-    width:100%;
+    width: 100%;
     color: white;
 }
 
-#bote{
-    position:absolute;
-    top: 247% ;
+#bote {
+    position: absolute;
+    top: 247%;
     left: 27%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 30%;
-    width:40%;
+    width: 40%;
 }
-#tarta{
-    position:absolute;
-    top: 247% ;
+
+#tarta {
+    position: absolute;
+    top: 247%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 30%;
-    width:40%;
+    width: 40%;
 }
-#proyecto3{
-    position:absolute;
-    top: 247% ;
+
+#proyecto3 {
+    position: absolute;
+    top: 247%;
     left: 73%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     height: 30%;
-    width:40%;
+    width: 40%;
 }
-#proyecto4{
 
-    position:absolute;
-    top: 283% ;
-    left:27%;
-    transform: translate(-50%, -50%); 
+#proyecto4 {
+
+    position: absolute;
+    top: 283%;
+    left: 27%;
+    transform: translate(-50%, -50%);
     height: 30%;
-    width:40%;
+    width: 40%;
 }
-#proyecto5{
 
-    position:absolute;
-    top: 283% ;
-    left:50%;
-    transform: translate(-50%, -50%); 
+#proyecto5 {
+
+    position: absolute;
+    top: 283%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 30%;
-    width:31%;
+    width: 31%;
 
 
 }
-#proyecto6{
 
-    position:absolute;
-    top: 283% ;
-    left:73%;
-    transform: translate(-50%, -50%); 
+#proyecto6 {
+
+    position: absolute;
+    top: 283%;
+    left: 73%;
+    transform: translate(-50%, -50%);
     height: 30%;
-    width:40%;
+    width: 40%;
+}
+#pie{
+    position: absolute;
+    top: 314%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 11%;
+    width: 100%;
 }
