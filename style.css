@@ -90,7 +90,7 @@ Body {background-color : #f05f40;
     
     color: white;
     position:absolute;
-    top:139% ;
+    top:143% ;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 110%;
@@ -110,10 +110,10 @@ Body {background-color : #f05f40;
 }
 #bla{
     position:absolute;
-    top: 185% ;
+    top: 189% ;
     left: 50%;
     transform: translate(-50%, -50%); 
-    height: 60%;
+    height: 59%;
     width:100%;
 
 }
@@ -163,7 +163,7 @@ Body {background-color : #f05f40;
 }
 .diseño{
     position:absolute;
-    top:200% ;
+    top:202% ;
     left: 80%;
     transform: translate(-50%, -50%);
     justify-content: center;
@@ -175,7 +175,7 @@ Body {background-color : #f05f40;
     left: 80%;
     transform: translate(-50%, -50%); 
     height: 115px;
-    width: 235px;
+    width: 178px;
 
 
 }
@@ -249,6 +249,4 @@ Body {background-color : #f05f40;
     transform: translate(-50%, -50%); 
     height: 30%;
     width:40%;
-
-
 }
