@@ -295,3 +295,14 @@ Body {
     height: 11%;
     width: 100%;
 }
+.ultimo{
+    position: absolute;
+    top: 313%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0%;
+    width: 100%;
+    color:white;
+    text-align: center;
+
+}
